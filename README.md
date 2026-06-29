@@ -23,3 +23,7 @@ The extension only operates on official Scouting domains.
 ## Privacy
 
 This extension does not collect, transmit, or store any personal data or authentication tokens.
+
+## License
+
+This project is licensed under the Mozilla Public License 2.0 (MPL-2.0). See the LICENSE file for details.
