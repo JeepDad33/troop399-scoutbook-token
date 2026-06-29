@@ -1,0 +1,92 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    overflow: hidden;
+    background: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.header {
+    background: #E6E8EB;
+    text-align: center;
+    padding: 10px 18px 6px;
+    border-bottom: 4px solid #CE1126;
+}
+
+.logo {
+    width: 190px;
+    display: block;
+    margin: 0 auto 2px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #003F87;
+}
+
+.card {
+    padding: 14px 18px;
+}
+
+.label {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.status {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.green {
+    color: #118847;
+}
+
+.red {
+    color: #C62828;
+}
+
+.yellow {
+    color: #E6A500;
+}
+
+.blue {
+    color: #1976D2;
+}
+
+#username {
+    font-size: 22px;
+    font-weight: 600;
+    color: #003F87;
+    margin-bottom: 8px;
+}
+
+#expires {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003F87;
+    margin-bottom: 8px;
+}
+
+#goodUntil {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+#clipboard {
+    font-size: 18px;
+    color: #118847;
+    margin-bottom: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ececec;
+    margin: 10px 0;
+}

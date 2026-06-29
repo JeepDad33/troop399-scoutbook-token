@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Troop 399 Scoutbook Token",
+  "description": "Securely validates and copies your Scoutbook session token.",
+  "version": "1.0.0",
+
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "https://advancements.scouting.org/*",
+    "https://api.scouting.org/*",
+    "https://auth.scouting.org/*",
+    "https://my.scouting.org/*"
+  ],
+
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+    }
+  }
+}
